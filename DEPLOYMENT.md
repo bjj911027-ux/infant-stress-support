@@ -4,7 +4,10 @@ The deployable root is this Direction B folder. Publish its contents at the repo
 
 ## Deployment status
 
-Local release candidate. A repository URL, live URL, and deployment date will be recorded after GitHub Pages publishes this release.
+- **Repository** — [bjj911027-ux/infant-stress-support](https://github.com/bjj911027-ux/infant-stress-support)
+- **Live website** — [Stress Happens](https://bjj911027-ux.github.io/infant-stress-support/)
+- **Pages source** — Deploy from a branch, `main`, `/ (root)`
+- **First published** — November 13, 2026
 
 ## Publish and verify
 
