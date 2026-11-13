@@ -14,7 +14,7 @@ The deployable root is this Direction B folder. Publish its contents at the repo
 1. Create or use the public `infant-stress-support` repository. Commit the contents of this folder to `main` and push.
 2. Open **Settings → Pages**. Select **Deploy from a branch**, **main**, and **/ (root)**. Save and wait for the Pages deployment to finish.
 3. Open the URL shown in Pages settings. Check mobile navigation, the scenario results, external resources, and the sound controls.
-4. In a scenario, play the included **No. 9 Esther’s Waltz** recording at volume `0.22`. Verify that playback carries through scenario steps and stops when leaving for Home, Quick Guide, or You Matter, Too.
+4. From Home, play the included **No. 9 Esther’s Waltz** recording at volume `0.22`. Verify that the same sound control is available and playback continues across scenario steps, results, Quick Guide, and You Matter, Too. Reload and verify that sound starts off.
 
 [GitHub Pages publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 

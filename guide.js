@@ -313,8 +313,7 @@ function render(moveFocus) {
   const hash = location.hash.slice(1);
   const route = Object.hasOwn(views, hash) || Object.hasOwn(questions, hash) || Object.hasOwn(results, hash) ? hash : 'home';
   const scenarioRoute = isScenarioRoute(route);
-  if (audio && isScenarioRoute(page.dataset.route) && !scenarioRoute) stopSound();
-  siteTools.hidden = !scenarioRoute;
+  siteTools.hidden = !audio && !scenarioRoute;
   scenarioGuide.hidden = !scenarioRoute;
   if (soundInfo && page.dataset.route !== route) soundInfo.open = false;
   const active = scenarioRoute ? 'scenario' : route;
